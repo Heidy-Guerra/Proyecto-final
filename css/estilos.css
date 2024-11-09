@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sora, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    width: 1200px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*aquí comienza mi header*/
+
+header {
+    background-color: #015366;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.bmenu {
+    padding-right: 35px;
+}
+
+a {
+    color: white;
+    font-family: unbounded, sans-serif;
+}
+
+a:hover {
+    opacity: 75%;
+    transition: 0.5s;
+}
+
+/*aquí empieza mi aside*/
+
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 55px;
+    margin-bottom: 32px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: unbounded, sans-serif;
+    color: #f78999;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #4a4f54;
+}
+
+/*aquí empieza mi main*/
+
+h2 {
+    font-family: unbounded, sans-serif;
+    color: #015366;
+    font-size: 22px;
+    margin-top: 175px;
+    margin-left: 145px;
+}
+
+p {
+    color: #4a4f54;
+    margin-left: 145px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.galeria {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagen {
+    margin: -4px;
+}
+
+/*aquí edito la página de editorial grande*/
+
+img.editorial01 {
+    display: block;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+a.volver {
+    display: block;
+    color: #015366;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/*Aquí trabajo sobre mí*/
+article.sobre {
+    display: block;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+}
+
+img.mifoto {
+    margin-top: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.sobre {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 96px;
+    color: #f78999;
+    /*Lic. en el h2 agregué margin left, margin right y margin top para que quedara centrado, porque el titulo estaba muy a la derecha y había mucho espacio entre la foto y el sobre mí*/
+}
+
+p.sobre {
+    color: #4a4f54;
+    width: 540px;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*Lic. agregué otras opciones para que quedara con otro ancho y justificado, esto por gusto personal*/
+
+}
+
+img.linea {
+    display: block;
+    width: 540px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*aquí edito los botones de mis redes*/
+div.redes {
+    width: 50px;
+    height: 160px;
+    background-color: #4a4f54;
+    position: fixed;
+    top: 255px;
+    left: 0px;
+    border-radius: 13px;
+
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+p.derechos {
+    background-color: #015366;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #f1f0eb;
+    text-align: center;
+}
